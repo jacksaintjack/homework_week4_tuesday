@@ -1,0 +1,48 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import '../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+header{
+  @include outer-container(100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e5e5e5;
+
+  section{
+    @include span-columns(5);
+    @include shift(2.4);
+    height:28px;
+
+  input{
+    width: 30em;
+    position: relative;
+    bottom: 0.38em;
+    font-size: 12px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    border: 1px solid #ccc;
+    padding: 0.9%;
+    }
+
+  a{
+    position: relative;
+    text-decoration: none;
+    color:black;
+    font-size: 13px;
+    font-weight: bold;
+    }
+
+  .firstLink{
+    left: 1.4em;
+    bottom: 0.4em;
+  }
+
+  .secondLink{
+    left: 2.2em;
+    bottom: 0.4em;
+  }
+  .thirdLink{
+    left: 3.2em;
+    bottom: 0.4em;
+  }
+  }
+}
