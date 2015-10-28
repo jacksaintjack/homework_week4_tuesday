@@ -1,15 +1,12 @@
-var avatar;
 
-var dataUser = $.ajax("https://api.github.com/users/jacksaintjack").done(function(dataOne){
-
-  var avatarFilter = $(dataUser).map(dataOne, function(avatar){
-    return dataUser;
-    })
-
+var dataUser = $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
+  var avatar = $.map( dataUser, function(value) {
+      return value.avatar_url;
+  })
   function smallAvatar(){
-    $('#smallAvatar').css('background-image', 'url(' + avatarFilter() + ')')
-  }
-
+    $('#smallAvatar').css('background-image', 'url(' + avatar.toString() + ')')
+    }
+    smallAvatar();
 
   });
 

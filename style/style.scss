@@ -45,4 +45,40 @@ header{
     bottom: 0.4em;
   }
   }
+  section:nth-child(2){
+    @include span-columns(3.4);
+    float:right;
+    margin-left:0;
+    padding-top: 0.4%;
+
+    span{
+      float:left;
+    }
+    span:nth-child(2){
+      padding-left:4%;
+    }
+    span:nth-child(3){
+      font-size:0.8em;
+      position:relative;
+      left: 0.7%;
+      top: 6.8%;
+    }
+    span:nth-child(5){
+      font-size:0.8em;
+      position:relative;
+      left: 0.7%;
+      top: 6.8%;
+    }
+
+    div{
+      width:1.3em;
+      height:1.3em;
+      background-size: contain;
+      border-radius:3px;
+      margin:0;
+      float:left;
+      margin-left: 4%;
+    }
+  }
+
 }
