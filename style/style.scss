@@ -123,6 +123,7 @@ header{
     #company, #location, #dateJoined{
       font-size:0.9em;
     }
+
     #location{
     padding-left:1%;
   }
@@ -135,11 +136,39 @@ header{
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    height:75px;
 
     div{
       @include span-columns(4);
       margin-right:0;
+      font-size: 28px;
+      font-weight: bold;
+      color: #4078c0;
+      line-height: 76%;
+    }
+    a{
+      color: #767676;
+      font-size: 11px;
+      text-transform: capitalize;
+      text-decoration: none;
     }
     }
+  .organizations{
+    @include span-columns(12);
+    height:92px;
+
+    h3{
+      margin-top: 15px;
+      margin-bottom: 15px;
+      line-height: 1.1;
+    }
+    div{
+      height: 2.5em;
+      width: 2.5em;
+      border-radius: 3px;
+      background-size: contain;
+      background-image: url('https://avatars0.githubusercontent.com/u/12236563?v=3&s=84');
+    }
+  }
 }
 }

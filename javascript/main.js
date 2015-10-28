@@ -9,7 +9,8 @@ $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
     $('#dateJoined').text(data.created_at);
     $('#followers').text(data.followers);
     $('#following').text(data.following);
-
+    $("#followers").append('<br><a href ='+ data.followers_url +'>' + 'Follower </a>');
+    $("#following").append('<br><a href ='+ data.following_url +'>' + 'Following </a>');
   });
 
 var dataRepo = $.ajax("https://api.github.com/users/jacksaintjack/repos").done(function(data){

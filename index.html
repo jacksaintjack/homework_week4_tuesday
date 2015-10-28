@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Homework Week 4 Tuesday</title>
-  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" media="screen">
-  <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.css" media="screen">
   <link rel="stylesheet" href="style/style.css" media="screen">
 </head>
 <body>
@@ -51,11 +51,18 @@
         </section>
 
           <section class="stats">
-            <div id="followers"></div></br>
-            <span id="followerUrl"></span>
-            <div class="starred">0</div>
-            <span>
+            <div id="followers"></div>
+
+            <div class="starred">0</br>
+              <a href="https://api.github.com/users/jacksaintjack/starred">Starred</a>
+            </div>
+
             <div id="following"></div>
+          </section>
+
+          <section class="organizations">
+            <h3>Organizations</h3>
+            <div id="frontEnd"></div>
           </section>
       </aside>
       <section id="projectArea">
@@ -67,7 +74,7 @@
     </main>
 
 
-  <script src='bower_components/jquery/dist/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
   <script src="token.js"></script>
   <script src="javascript/main.js"></script>
 </body>
