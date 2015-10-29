@@ -273,3 +273,11 @@ main {
       font-size: 13px;
       font-weight: bold;
       border-radius: 3px; }
+
+.projectArea {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .projectArea:last-child {
+    margin-right: 0; }

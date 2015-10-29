@@ -272,3 +272,7 @@ header{
     }
   }
 }
+
+.projectArea{
+  @include span-columns(12);
+}
