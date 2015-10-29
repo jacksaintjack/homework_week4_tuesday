@@ -173,3 +173,103 @@ main {
         border-radius: 3px;
         background-size: contain;
         background-image: url("https://avatars0.githubusercontent.com/u/12236563?v=3&s=84"); }
+  main nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 72.70463%;
+    height: 37px;
+    margin: 0 0 -1px 0;
+    border-bottom: 1px solid #eee; }
+    main nav:last-child {
+      margin-right: 0; }
+    main nav div {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 18.96686%;
+      padding: 8px 12px;
+      margin: 0; }
+      main nav div:last-child {
+        margin-right: 0; }
+    main nav div:nth-child(2) {
+      border-top: 1px solid #eee;
+      border-left: 1px solid #eee;
+      border-right: 1px solid #eee;
+      border-bottom: 2px solid white; }
+      main nav div:nth-child(2) a {
+        color: black; }
+    main nav a {
+      text-decoration: none;
+      color: #666;
+      font-size: 14px; }
+  main button {
+    width: 107px;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    background-color: #eee;
+    background-image: linear-gradient(#fcfcfc, #eee);
+    border: 1px solid #d5d5d5; }
+  main .search {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 72.70463%;
+    height: 50px;
+    margin: 0;
+    padding-top: 2%; }
+    main .search:last-child {
+      margin-right: 0; }
+    main .search input {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 34.747%;
+      padding: 7px 8px;
+      font-size: 13px;
+      color: #333;
+      border-radius: 3px;
+      margin: 0;
+      border: 1px solid #ccc;
+      outline: none;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); }
+      main .search input:last-child {
+        margin-right: 0; }
+    main .search button {
+      float: left;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-left: 1%;
+      width: 10%; }
+    main .search ul {
+      list-style: none;
+      position: relative;
+      bottom: 27%; }
+    main .search li {
+      display: inline-block;
+      float: left;
+      color: #4078c0;
+      margin-left: 10px;
+      font-size: 14px; }
+    main .search li:nth-child(1) {
+      color: #000;
+      font-weight: bold;
+      margin-left: 4.6%; }
+    main .search .newButton {
+      position: relative;
+      left: 1.3%;
+      bottom: 59%;
+      color: #fff;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+      background: #60b044;
+      background-image: linear-gradient(#8add6d, #60b044);
+      border-color: #5ca941;
+      margin: 0;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: bold;
+      border-radius: 3px; }
