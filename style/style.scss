@@ -217,6 +217,9 @@ header{
     height:50px;
     margin:0;
     padding-top: 2%;
+    padding: 0 0 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
 
     input{
       @include span-columns(4.35);
@@ -273,6 +276,21 @@ header{
   }
 }
 
-.projectArea{
-  @include span-columns(12);
+#projectArea{
+  @include span-columns(8.8);
+
+  li{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  a{
+    color: #4078c0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+  }
 }
