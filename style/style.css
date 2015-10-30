@@ -283,14 +283,86 @@ main {
   width: 72.70463%; }
   #projectArea:last-child {
     margin-right: 0; }
-  #projectArea li {
-    position: relative;
+  #projectArea #projectBox {
     padding-top: 30px;
     padding-bottom: 30px;
-    list-style: none;
     border-bottom: 1px solid #eee; }
+  #projectArea li {
+    list-style: none; }
   #projectArea a {
     color: #4078c0;
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder; }
+
+footer {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #eee; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+  footer .navLeft {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin: 0; }
+    footer .navLeft:last-child {
+      margin-right: 0; }
+    footer .navLeft ul {
+      padding: 0; }
+    footer .navLeft .copyRight {
+      font-size: 12px;
+      color: #767676;
+      padding-top: 0.7%;
+      float: left; }
+    footer .navLeft li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 10px;
+      float: left; }
+    footer .navLeft a {
+      color: #4078c0;
+      text-decoration: none;
+      font-size: 12px; }
+  footer .middleIcon {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+    text-align: center;
+    margin-left: -12px;
+    color: #ccc;
+    position: relative;
+    left: 6em;
+    top: 0.5em; }
+    footer .middleIcon:last-child {
+      margin-right: 0; }
+    footer .middleIcon span {
+      font-size: 24px;
+      height: 24px;
+      width: 24px; }
+  footer .navRight {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 52.2331%;
+    margin-left: 8.5298%;
+    margin: 0; }
+    footer .navRight:last-child {
+      margin-right: 0; }
+    footer .navRight li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 10px;
+      float: right; }
+    footer .navRight a {
+      text-align: center;
+      color: #4078c0;
+      text-decoration: none;
+      font-size: 12px; }
