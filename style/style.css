@@ -212,6 +212,8 @@ main {
     background-color: #eee;
     background-image: linear-gradient(#fcfcfc, #eee);
     border: 1px solid #d5d5d5; }
+    main button span {
+      margin-right: 3%; }
   main .search {
     float: left;
     display: block;
@@ -314,6 +316,11 @@ main {
     #projectArea #stats .branchIcon {
       margin-left: 8%;
       margin-right: 4%; }
+  #projectArea .updatedTime {
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #888; }
 
 footer {
   max-width: 60%;

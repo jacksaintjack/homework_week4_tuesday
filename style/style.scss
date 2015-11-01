@@ -210,6 +210,10 @@ header{
     background-color: #eee;
     background-image: linear-gradient(#fcfcfc, #eee);
     border: 1px solid #d5d5d5;
+
+    span{
+      margin-right: 3%;
+    }
   }
 
   .search{
@@ -323,7 +327,12 @@ header{
     margin-right: 4%;
   }
   }
-
+  .updatedTime{
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #888;
+  }
 }
 
   footer{
