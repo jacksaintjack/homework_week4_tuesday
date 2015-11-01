@@ -14,25 +14,13 @@ $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
   });
 
 var dataRepo = $.ajax("https://api.github.com/users/jacksaintjack/repos").done(function(data){
-
   $.each(data, function(repos, add){
      $("#projectArea").append('<div id="projectBox"><li>'+'<a href ='+ add.html_url +'>' + add.name + '</a>' +
-     '<li id=stats></li>' + '</li></div>');
+     '<li id="stats">'+ add.language + '<span class="octicon octicon-star starIcon"></span>' + '<span class=>'+ add.stargazers_count +
+     '</span>' + '<span class="octicon octicon-git-branch branchIcon"></span>' + '<span class=>' + add.forks_count + '</span>' + '</li>' + '</li></div>');
 
-    //  if(projectName === projectCode){
-    //    $('#stats').append(add.language);
-    //  }
 })
 
-function getColumnIndex(id, key) {
-    return columns.indexOf(key)
-}
-
-var nameIndex = getColumnIndex(jsonSource.COLUMNS, 'NAME');
-
-$.each(jsonSource.DATA, function( indexInArray, value ) {
-    console.log( value[nameIndex] );
-});
 
 
 });

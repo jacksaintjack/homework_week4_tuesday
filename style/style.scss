@@ -283,7 +283,7 @@ header{
     padding-bottom: 30px;
     border-bottom: 1px solid #eee;
   }
-  
+
   li{
     list-style: none;
   }
@@ -294,10 +294,41 @@ header{
     font-size: 20px;
     font-weight: bolder;
   }
+
+  #stats{
+    float:right;
+    font-size: 12px;
+    font-weight: bold;
+    color: #888;
+    position:relative;
+    bottom: 1.5em;
+    width: 17%;
+    text-align: right;
+
+
+    span{
+      font-size: 12px;
+      font-weight: bold;
+      color: #888;
+      text-align: left;
+    }
+
+  .starIcon{
+    margin-left: 8%;
+    margin-right: 4%;
+  }
+
+  .branchIcon{
+    margin-left: 8%;
+    margin-right: 4%;
+  }
+  }
+
 }
 
   footer{
     @include outer-container(60%);
+    margin-top:3%;
     padding-top: 40px;
     padding-bottom: 40px;
     border-top: 1px solid #eee;
