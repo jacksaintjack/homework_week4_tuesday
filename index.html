@@ -102,9 +102,7 @@
         </button>
       </section>
 
-
       <section id="projectArea">
-          <ul id="projects"></ul>
       </section>
 
 
@@ -140,7 +138,22 @@
 
     </footer>
 
+    <script type='text/template' id ="projectTemplate">
+      <div id="projectBox">
+        <li>
+          <a href = <%= html_url %> > <%= name %> </a>
+          <li id="stats"> <%= language %>
+            <span class="octicon octicon-star starIcon"></span>
+            <span> <%= stargazers_count %></span>
+            <span class="octicon octicon-git-branch branchIcon"></span>
+            <span> <%= forks_count %></span>
+          </li>
+          <span class="updatedTime"> Updated<%= " " + moment(updated_at).fromNow() %> </span>
+        </li>
+      </div>
+    </script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
   <script src="token.js"></script>
