@@ -22,17 +22,8 @@ $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
     $('#projectArea').append(compiledProjectTemplate(data))
   };
 
-  function getData(data){
+  (function getData(data){
   $.ajax("https://api.github.com/users/jacksaintjack/repos").done(function(data){
     data.forEach(displayData);
   });
-  };
-
-  getData();
-//       $.each(data, function(repos, add){
-//      $("#projectArea").append('<div id="projectBox"><li>'+'<a href ='+ add.html_url +'>' + add.name + '</a>' +
-//      '<li id="stats">'+ add.language + '<span class="octicon octicon-star starIcon"></span>' + '<span class=>'+ add.stargazers_count +
-//      '</span>' + '<span class="octicon octicon-git-branch branchIcon"></span>' + '<span class=>' + add.forks_count + '</span>' + '</li>' +
-//      '<span class="updatedTime"> updated '+ moment(add.updated_at).fromNow() +'</span>'  + '</li></div>');
-//
-// })
+})();

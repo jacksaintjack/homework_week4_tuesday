@@ -94,7 +94,7 @@ main{
       div{
         height: 14.3em;
         border-radius: 6px;
-        background-size: contain;
+        background-size: cover;
       }
 
       #usersFullName{
@@ -180,7 +180,7 @@ main{
     border-bottom: 1px solid #eee;
 
     div{
-      @include span-columns(2.5);
+      @include span-columns(3);
       padding: 8px 12px;
       margin:0;
     }
@@ -190,6 +190,7 @@ main{
       border-left:1px solid #eee;
       border-right:1px solid #eee;
       border-bottom:2px solid white;
+
 
       a{
         color:black;

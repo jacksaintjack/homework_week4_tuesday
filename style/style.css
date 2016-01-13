@@ -105,7 +105,7 @@ main {
       main aside section div {
         height: 14.3em;
         border-radius: 6px;
-        background-size: contain; }
+        background-size: cover; }
       main aside section #usersFullName {
         font-size: 26px;
         font-weight: bolder; }
@@ -188,7 +188,7 @@ main {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 18.96686%;
+      width: 23.23176%;
       padding: 8px 12px;
       margin: 0; }
       main nav div:last-child {
