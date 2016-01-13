@@ -27,7 +27,7 @@ $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
     data.forEach(displayData);
   });
   };
-  
+
   getData();
 //       $.each(data, function(repos, add){
 //      $("#projectArea").append('<div id="projectBox"><li>'+'<a href ='+ add.html_url +'>' + add.name + '</a>' +
