@@ -171,8 +171,9 @@ main {
         height: 2.5em;
         width: 2.5em;
         border-radius: 3px;
-        background-size: contain;
-        background-image: url("https://avatars0.githubusercontent.com/u/12236563?v=3&s=84"); }
+        background-image: url("https://avatars0.githubusercontent.com/u/12236563?v=3&s=84");
+        background-size: cover;
+        background-repeat: no-repeat; }
   main nav {
     float: left;
     display: block;

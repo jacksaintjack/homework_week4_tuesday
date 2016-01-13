@@ -19,15 +19,15 @@ $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
     var projectTemplate = projectItems.html();
     var compiledProjectTemplate = _.template(projectTemplate);
 
-    $('#projectArea').append(compiledProjectTemplate(data));
+    $('#projectArea').append(compiledProjectTemplate(data))
   };
 
-  function getData(){
+  function getData(data){
   $.ajax("https://api.github.com/users/jacksaintjack/repos").done(function(data){
     data.forEach(displayData);
   });
   };
-  
+
   getData();
 //       $.each(data, function(repos, add){
 //      $("#projectArea").append('<div id="projectBox"><li>'+'<a href ='+ add.html_url +'>' + add.name + '</a>' +
