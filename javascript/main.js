@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    alert('This page is best view at the resolution 1680 x 1050');
+  });
+
 $.ajax("https://api.github.com/users/jacksaintjack").done(function(data){
 
     $('#smallAvatar').css('background-image', 'url(' + data.avatar_url.toString() + ')');
